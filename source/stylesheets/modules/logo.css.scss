@@ -1,0 +1,10 @@
+.logo {
+	font-size: 4em;
+	font-family: "gooddog-new";
+	color: $green;
+	display: inline-block;
+	overflow: hidden;
+	padding: 2px 15px 2px 15px;
+	@include border-radius(5px);
+	text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.columns {
+	@include clearfix;
+	.column {
+		float:left;
+		background:rgba(218,218,218,1);
+		display:inline-block;
+		margin-left:$gutter/$em;
+	}
+
+	.column:first-child {
+		margin-left:0;
+	}	
+}
+
+.columns-medios {
+	.column {
+		@include width(6);
+	}
+}
+
+.columns-tercios {
+	.column {
+		@include width(4);
+	}
+}
+
+.columns-cuartos {
+	.column {
+		@include width(3);
+	}
+}

@@ -1,11 +1,35 @@
 <!doctype html>
-<%= partial "ie-hacks" %>
-  <head>
-    <%= partial "head-meta" %>
-    <title><%= data.page.title %> </title>
-    <%= partial "head-links" %>
-  </head>
-  <body lang="en">
-   <%= yield %>
-  </body>
+<%= partial "partials/ie-hacks" %>
+<head>
+  <%= partial "partials/head-meta" %>
+  <title><%= data.page.title %> </title>
+  <%= partial "partials/head-links" %>
+</head>
+
+<body>
+
+ <header>
+  <div class="container">
+    <a class="logo" href="">CARDENAL</a>
+    <nav>
+      <ul>
+        <li><a href="">SERVICIOS</a></li>
+        <li><a href="">PORTAFOLIO</a></li>
+        <li><a href="">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </div>      
+</header>
+
+
+<div id="main">
+  <%= yield %>
+</div>
+
+<footer>
+
+</footer>
+
+
+</body>
 </html>
