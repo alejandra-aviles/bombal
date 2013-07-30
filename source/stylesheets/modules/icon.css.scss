@@ -1,0 +1,7 @@
+[data-icon]:before {
+  font-family: 'Pictos Custom';
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+  text-transform: none;
+}
+

@@ -1,10 +1,15 @@
 .logo {
-	font-size: 4em;
-	font-family: "gooddog-new";
-	color: $green;
+	font-size: 8em;
+	font-weight:700;
+	background-color: $red;
+	color: white;
 	display: inline-block;
 	overflow: hidden;
-	padding: 2px 15px 2px 15px;
-	@include border-radius(5px);
+	padding: 23px 20px 0 20px;
 	text-decoration: none;
+}
+
+.logo-small {
+	font-size: 2em;
+	float:left;
 }

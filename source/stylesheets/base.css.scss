@@ -1,5 +1,5 @@
 body {
-	font-family: "rooney-web";
+	font-family: "museo-sans";
 	font-size: $font-size;
 }
 
@@ -7,33 +7,44 @@ p, h1, h2, h3, h4, h5, h6 {
 	text-rendering:optimizeLegibility;
 }
 
+.container {
+	margin:40px 0 40px 0;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 200;
+	font-size: 2.5em;
+	color:rgba(47,57,67,1);
+	padding: 50px 0 50px 0;
+	color: white;
+}
 
 h2 {
-	font-size: 2em;
-	font-weight: 400;
-	color: $orange;
-	margin-bottom:50px;
-	text-align:center;
-}
-
-h3 {
-	font-size: 5.7em;
-	color: $dark-grey;
-	margin:120px 0 120px 0;
-}
-
-h4{
-	font-size: 1.7em;
-	font-weight: 100;
-	color: $grey;
-}
-
-h5 {
-	font-size: 1.4em;
-	color:$dark-grey;
+	font-size: 3em;
 	font-weight: 300;
+	color: black;
+	margin-bottom:20px;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(201,201,201,1);
+	padding: 70px 0 20px 0;
+}
+
+
+
+h6{
+
 }
 
 p {
-	font-size: 3em;
+	font-size: 1.6em;
+	line-height:1.5em;
+	font-weight: 100;
+	color:rgba(119,121,133,1);
 }

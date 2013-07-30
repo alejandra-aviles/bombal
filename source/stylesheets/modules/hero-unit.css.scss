@@ -1,6 +1,18 @@
 .hero-unit {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	text-align: center;
-	background-color: $light-grey;
+	height:600px;
+	background: url('/images/fondo.jpg');
+	h1 {
+		font-size: 3em;
+		color:white;
+		text-shadow: 3px 3px $dark-grey;
+		font-weight: 300;
+		padding:0;
+		text-align: center;
+		margin-top: 300px;
+	}
+
+	.logo {
+		margin-top: 100px
+	}
+
 }

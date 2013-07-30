@@ -2,7 +2,6 @@
 	@include clearfix;
 	.column {
 		float:left;
-		background:rgba(218,218,218,1);
 		display:inline-block;
 		margin-left:$gutter/$em;
 	}
@@ -21,11 +20,16 @@
 .columns-tercios {
 	.column {
 		@include width(4);
+		height: 500px;
 	}
 }
 
 .columns-cuartos {
 	.column {
 		@include width(3);
+		height: 200px;
+		margin:5px;
 	}
 }
+
+
