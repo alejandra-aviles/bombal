@@ -1,0 +1,1 @@
+parallax.background=$("body"),parallax.scaling=.4;
