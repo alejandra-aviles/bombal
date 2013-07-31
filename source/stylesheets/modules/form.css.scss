@@ -4,30 +4,38 @@ form {
 	}	
 
 	* {
-		font-size:2em;
+		font-size:1.5em;
 	}
 
 	label {
-		font-size:2em;
+		font-size:1.4em;
 		margin-bottom:10px;
+		font-weight: 100;
+		color: $grey;
 	}
 
 	input, textarea {
 		border:0;
-		border-bottom:3px solid #dfdfdf;
+		border-bottom:2px solid #dfdfdf;
 		outline-style:none;
 		padding:3px 7px;
 		line-height:1.4em;		
 	}
 
+
 	input {
-		width:500px;
-		font-size:2em;
+		width:400px;
+		font-size:1.3em;
 		margin-bottom:30px;
+		color:$green;
 	}
 
+input, submit {
+}
 	textarea {
-		width:500px;
-		height:10em;
+		width:400px;
+		font-size: 1.4em;
+		height:4em;
+		color: $green;
 	}
 }
